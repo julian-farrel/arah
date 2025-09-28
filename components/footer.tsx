@@ -16,7 +16,7 @@ export function Footer() {
         <p className="mb-6 text-center text-[11px] font-medium uppercase tracking-wider text-muted-foreground">
           Investors
         </p>
-        <div className="flex flex-wrap items-center justify-center gap-10 opacity-90">
+        {/* <div className="flex flex-wrap items-center justify-center gap-10 opacity-90">
           <img
             src="/andreessen-horowitz-logo-white-wordmark.jpg"
             alt="Andreessen Horowitz logo"
@@ -29,7 +29,7 @@ export function Footer() {
             className="h-8 w-[180px] object-contain"
             loading="lazy"
           />
-        </div>
+        </div> */}
       </section>
 
       {/* Audited by */}
@@ -37,7 +37,7 @@ export function Footer() {
         <p className="mb-6 text-center text-[11px] font-medium uppercase tracking-wider text-muted-foreground">
           Audited by
         </p>
-        <div className="flex flex-wrap items-center justify-center gap-10">
+        {/* <div className="flex flex-wrap items-center justify-center gap-10">
           <img
             src="/zksecurity-logo-white-on-dark.jpg"
             alt="ZKSecurity logo"
@@ -50,19 +50,13 @@ export function Footer() {
             className="h-10 w-[180px] object-contain"
             loading="lazy"
           />
-        </div>
-      </section>
-
-      {/* Monogram */}
-      <section className="mx-auto w-full max-w-5xl px-6 pt-16">
-        <div className="flex items-center justify-center">
-          <img src="/arah-monogram-abstract-metallic.jpg" alt="Arah monogram" className="h-28 w-20 opacity-80" loading="lazy" />
-        </div>
+        </div> */}
       </section>
 
       {/* Bottom bar */}
-      <section className="mx-auto w-full max-w-6xl px-6 pt-12 pb-10">
-        <div className="flex flex-col items-center justify-between gap-6 border-t border-border/60 pt-8 md:flex-row">
+      <section className="w-full pt-12 pb-10 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/10">
+        {/* The width, max-width, margin, and padding classes are now here */}
+        <div className="mx-auto w-full max-w-6xl px-6 flex flex-col items-center justify-between gap-6 border-t border-border/60 pt-8 md:flex-row">
           <nav className="flex flex-col items-center gap-2 text-sm text-muted-foreground md:flex-row md:gap-8">
             <a href="#" className="hover:text-foreground">
               Documentation

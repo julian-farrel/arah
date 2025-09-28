@@ -7,8 +7,8 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Arah — Trade Perpetuals",
-  description: "Arah is the next-generation perpetuals exchange focused on verifiable fairness and efficiency.",
+  title: "Arah",
+  description: "Arah is the next-generation perpetuals exchange focused on variety and efficiency.",
   generator: "v0.app",
 }
 

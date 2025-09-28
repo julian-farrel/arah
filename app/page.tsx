@@ -10,8 +10,8 @@ export default function HomePage() {
       <LiquidChrome
         aria-hidden="true"
         // Subtle deep-blue charcoal tint for the chrome effect
-        baseColor={[0.1, 0, 0]}
-        speed={0.22}
+        baseColor={[0.07, 0, 0]}
+        speed={0.17}
         amplitude={0.55}
         frequencyX={3.0}
         frequencyY={2.0}
@@ -27,7 +27,7 @@ export default function HomePage() {
         <div className="rounded-2xl border border-white/10 bg-background/20 shadow-2xl ring-1 ring-black/5 backdrop-blur-sm">
           <div className="overflow-hidden rounded-2xl">
             <img
-              src="/images/arah-dashboard.png"
+              src="/images/arahdex UI.PNG"
               alt="Arah trading interface preview"
               className="block h-auto w-full"
               loading="lazy"

@@ -13,7 +13,7 @@ import {
 
 export function SiteHeader() {
   return (
-    <header className="relative z-10">
+    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/10">
       <nav className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-5">
         {/* Left: Brand */}
         <Link href="/" className="flex items-center gap-2" aria-label="Arah Home">
@@ -81,7 +81,15 @@ export function SiteHeader() {
 
         {/* Right: CTA */}
         <div className="flex items-center">
-          <Button className="rounded-full px-5 py-2">Launch App</Button>
+          <Button asChild className="rounded-full px-5 py-2">
+            <a 
+              href="https://arahdex.vercel.app/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              Launch App
+            </a>
+          </Button>
         </div>
       </nav>
     </header>
