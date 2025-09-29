@@ -27,7 +27,7 @@ export default function HomePage() {
         <div className="rounded-2xl border border-white/10 bg-background/20 shadow-2xl ring-1 ring-black/5 backdrop-blur-sm">
           <div className="overflow-hidden rounded-2xl">
             <img
-              src="/images/arahdex new ui.PNG"
+              src="/images/arahdex UI with logo.PNG"
               alt="Arah trading interface preview"
               className="block h-auto w-full"
               loading="lazy"

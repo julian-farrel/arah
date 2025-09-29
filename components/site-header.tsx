@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image" // 1. Import the Image component
 import { Button } from "@/components/ui/button"
 import {
   DropdownMenu,
@@ -17,8 +18,14 @@ export function SiteHeader() {
       <nav className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-5">
         {/* Left: Brand */}
         <Link href="/" className="flex items-center gap-2" aria-label="Arah Home">
-          {/* Simple brand mark */}
-          <span aria-hidden="true" className="inline-block h-5 w-5 rounded-sm bg-foreground/90" />
+          {/* 2. Replace the placeholder span with your logo */}
+          <Image
+            src="/Arah logo.png" // <-- Make sure this path matches your logo file in the /public folder
+            alt="Arah Logo"
+            width={20} // Adjust width as needed
+            height={20} // Adjust height as needed
+            className="h-5 w-5" // This ensures the size is consistent
+          />
           <span className="text-sm font-medium tracking-wide text-foreground/90">Arah</span>
         </Link>
 
@@ -82,9 +89,9 @@ export function SiteHeader() {
         {/* Right: CTA */}
         <div className="flex items-center">
           <Button asChild className="rounded-full px-5 py-2">
-            <a 
-              href="https://arahdex.vercel.app/" 
-              target="_blank" 
+            <a
+              href="https://arahdex.vercel.app/"
+              target="_blank"
               rel="noopener noreferrer"
             >
               Launch App
