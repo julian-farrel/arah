@@ -23,7 +23,7 @@ export default function HomePage() {
       <Hero />
 
       {/* Screenshot section */}
-      <section className="relative z-10 mx-auto w-full max-w-6xl px-6 pb-20">
+      <section className="relative z-10 mx-auto w-full max-w-7xl px-6 pb-20">
         <div className="rounded-2xl border border-white/10 bg-background/20 shadow-2xl ring-1 ring-black/5 backdrop-blur-sm">
           <div className="overflow-hidden rounded-2xl">
             <img
