@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Arah",
   description: "Arah is the next-generation perpetuals exchange focused on variety and efficiency.",
   generator: "v0.app",
+  icons: {
+    icon: "Arah logo.png",
+  },
 }
 
 export default function RootLayout({
